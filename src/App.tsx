@@ -1,10 +1,10 @@
 import styled from "styled-components";
-import TitlePage from "./conponents/TitlePage";
+import Home from "./pages/Home";
 
 export default function App() {
   return (
     <Container>
-      <TitlePage title={"MyTitle"} />
+      <Home />
     </Container>
   );
 }
